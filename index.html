@@ -31,7 +31,7 @@
                         <li>
                             <div>
                                 <label for="firstName">First Name</label>
-                                <input type="text" id="firstName" name="firstName">
+                                <input type="text" id="firstName" name="firstName" required>
                             </div>
 
                             <div>
@@ -42,12 +42,12 @@
                         <li>
                             <div>
                                 <label for="email">Email</label>
-                                <input type="text" id="mail" name="email">
+                                <input type="email" id="mail" name="email" required>
                             </div>
 
                             <div>
                                 <label for="phoneNumber">Phone Number</label>
-                                <input type="text" id="phoneNumber" name="phoneNumber">
+                                <input type="text" id="phoneNumber" name="phoneNumber" required>
                             </div>
                         </li>
                         <li>
@@ -73,5 +73,7 @@
             </div>
         </main>
     </div>
+
+    <script src="validate-form.js"></script>
 </body>
 </html>
