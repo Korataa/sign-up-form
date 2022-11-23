@@ -8,47 +8,70 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h4>This is not a real online service! You know you need something
-            like this in your life to help you realize your deepest dreams.
-            Sign up now to get started.
-            <br>
+    <div class="flex-container">
+        <aside>
+            <img src="winter-trees.jpg">
+        </aside>
 
-            You know you want to.
-        </h4>
-    </header>
+        <main>
+            <div class="heading">
+                <h4>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up now to get started.
+                    <br>
 
-    <div>
-        <form>
-            <ul>
-                <li>
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName">
-                </li>
-                <li>
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName">
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="text" id="mail" name="email">
-                </li>
-                <li>
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="text" id="phoneNumber" name="phoneNumber">
-                </li>
-                <li>
-                    <label for="pass">Password</label>
-                    <input type="password" id="pass" name="password" 
-                    minLength="8" required>
-                </li>
-                <li>
-                    <label for="confirmPass">Confirm Password</label>
-                    <input type="password" id="confirmPass" 
-                    minLength="8" required>
-                </li>
-            </ul>
-        </form>
+                    You know you want to.
+                </h4>
+            </div>
+
+            <div class="form-container">
+                <form>
+                    <legend>Let's do this!</legend>
+                    <ul>
+                        <li>
+                            <div>
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+
+                            <div>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="text" id="mail" name="email">
+                            </div>
+
+                            <div>
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" id="phoneNumber" name="phoneNumber">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass" name="password" 
+                                minLength="8" required>
+                            </div>
+
+                            <div>
+                                <label for="confirmPass">Confirm Password</label>
+                                <input type="password" id="confirmPass" 
+                                minLength="8" required>
+                            </div>
+                        </li>
+                        <li>
+                            <button type="submit">Create Account</button>
+                        </li>
+                    </ul>
+                </form>
+
+                <p>Already have an account? <a href="/login.html">Log In</a></p>
+            </div>
+        </main>
     </div>
 </body>
 </html>
